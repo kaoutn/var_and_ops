@@ -17,17 +17,19 @@ describe("Javascript Variables and Operateur Kata", function() {
 		expect(result).toBe(60);
 	})
 
+
+
+	it("should compute exponentiation", function() {
+		var result = tester.exponentiel(2,3);
+		expect(result).toBe(8);
+	})
+
 	it("should compute an addition and not a concatenation", function() {
 
 		var result = tester.sum(2, "5", 4);
 		expect(result).toBe(11);
 
 	});
-
-	it("should compute exponentiation", function() {
-		var result = tester.exponentiel(2,3);
-		expect(result).toBe(8);
-	})
 
 
     it("should compute the double of the number", function(){
